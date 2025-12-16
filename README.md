@@ -153,49 +153,8 @@ midnight-doomscroll-intensity/
 - **Business Intelligence**: Metabase
 - **Version Control**: Git/GitHub
 
-## 📈 Learning Outcomes
 
-✅ ETL pipeline design and implementation  
-✅ PostgreSQL schema design with proper indexing  
-✅ Docker containerization (no local installations)  
-✅ Python data transformation at scale (3000+ rows)  
-✅ Statistical anomaly detection (Z-scores)  
-✅ SQL aggregations and window functions  
-✅ Business Intelligence dashboarding  
-✅ Professional documentation & version control  
-✅ Error handling and logging  
-✅ Data validation and cleaning  
 
-## 🎓 Portfolio Value
-
-This project demonstrates:
-
-**Data Engineering Skills**
-- Full ETL pipeline from raw data to insights
-- Real-world data transformation challenges (column name variations, timestamp parsing)
-- Robust error handling and logging
-
-**Database Skills**
-- Schema design with proper data types
-- Index optimization for query performance
-- SQL aggregations and views
-- Data integrity constraints
-
-**Python Skills**
-- Pandas data manipulation
-- Statistical analysis (z-scores)
-- Configuration management
-- Object-oriented design
-
-**DevOps Skills**
-- Docker containerization
-- Local development environment setup
-- Data pipeline orchestration
-
-**Data Visualization**
-- Dashboard creation
-- Business intelligence tool integration
-- Data storytelling
 
 ## 🔧 Common Commands
 
@@ -266,19 +225,7 @@ docker rm doomscroll-postgres
 - `severity`: mild/moderate/extreme
 - `message`: Description of anomaly
 
-## 🎯 Interview Talking Points
 
-1. **Why this metric?** "Late-night social media usage is a real phenomenon. This project measures it scientifically."
-
-2. **Data challenges:** "Real Kaggle data had inconsistent column names, timestamp formats with nanosecond precision, and synthetic hour values that needed extraction."
-
-3. **Pipeline design:** "ETL separates concerns - extraction handles data loading, transformation handles business logic, and loading handles database insertion. Easy to test and modify."
-
-4. **Anomaly detection:** "Z-scores identify days with unusual MDI patterns statistically, not just arbitrary thresholds."
-
-5. **Why Docker?** "No need to install PostgreSQL locally. Containers are reproducible - anyone can run this project identically."
-
-6. **Scalability:** "This pipeline handles 3000 rows in seconds. Could easily scale to millions with chunking and batch processing."
 
 ## 📚 Resources
 
@@ -323,15 +270,4 @@ pip install -r requirements.txt
 
 MIT License - feel free to use this project for learning and interviews!
 
-## 👤 Author
 
-**Mayank Deshmukh**
-- GitHub: [@Mayank1Deshmukh](https://github.com/Mayank1Deshmukh)
-- LinkedIn: [Your LinkedIn URL]
-- Email: [your email]
-
----
-
-**Built for data engineering interviews** 🚀
-
-Perfect portfolio piece demonstrating ETL, SQL, Python, Docker, and data visualization skills!
